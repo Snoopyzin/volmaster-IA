@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Volmaster Tech IA - Assistente de Treinamentos Técnicos de Caminhão</title>
+
+		<link rel="stylesheet" href="src/css/reset.css" />
+		<link rel="stylesheet" href="src/css/styles.css" />
+
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+	</head>
+	<body>
+		<div class="bg"></div>
+		<div class="bg bg2"></div>
+		<div class="bg bg3"></div>
+
+		<main class="container">
+			<div class="main-content">
+				<header class="brand-header">
+					<div class="container-logo">
+						<img src="src/images/VOLMASTER 01.png" alt="Logo Volmaster Tech" class="robot-image" />
+
+						<h1 class="brand-title">Volmaster Tech IA</h1>
+					</div>
+
+					<p class="brand-subtitle">Seu assistente inteligente da Volmaster Tech</p>
+				</header>
+
+				<!-- Links e Redes Sociais -->
+				<div class="social-links">
+					<a href="https://snoopyzin.github.io/pag-de-servi-os-volmaster/" target="_blank" class="training-btn">
+						🎓 Treinamentos Online e Presencial
+					</a>
+					
+					<div class="social-buttons">
+						<a href="https://wa.me/5562981983660" target="_blank" class="social-btn whatsapp" title="WhatsApp - Paulo Murilo">
+							<i class="fab fa-whatsapp"></i> WhatsApp
+						</a>
+						<a href="https://www.youtube.com/@volmastertechtreinamentote8457" target="_blank" class="social-btn youtube" title="YouTube">
+							<i class="fab fa-youtube"></i> YouTube
+						</a>
+						<a href="https://www.instagram.com/volmastertech/" target="_blank" class="social-btn instagram" title="Instagram">
+							<i class="fab fa-instagram"></i> Instagram
+						</a>
+						<a href="https://www.instagram.com/volmastertech.service/" target="_blank" class="social-btn instagram-service" title="Instagram Reparo de Módulos">
+							<i class="fab fa-instagram"></i> Instagram Reparo
+						</a>
+						<a href="https://www.facebook.com/volmastertech" target="_blank" class="social-btn facebook" title="Facebook">
+							<i class="fab fa-facebook"></i> Facebook
+						</a>
+					</div>
+				</div>
+
+				<!-- Área de chat com histórico -->
+				<div id="chat-history" class="chat-history">
+					<!-- Mensagens aparecerão aqui -->
+				</div>
+
+				<section class="search-card">
+					<div class="search-content">
+						<div class="input-container">
+							<textarea rows="1" id="mood-textarea" placeholder="Digite sua pergunta sobre treinamentos técnicos..." class="mood-textarea"></textarea>
+						</div>
+
+						<button id="search-button" class="search-button">
+							<span class="play-icon">&#9654;</span>
+							Enviar Pergunta
+						</button>
+					</div>
+				</section>
+			</div>
+		</main>
+		<script src="./src/js/knowledge-base.js"></script>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
